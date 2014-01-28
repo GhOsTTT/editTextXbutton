@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.zedittextwithx"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <com.example.zedittextwithx.EditTextWithDeleteButton
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textfield_bg"
+        android:ems="10"
+        android:orientation="horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        custom:deleteButtonRes="@drawable/text_field_clear_btn"
+        custom:hintText="Deneme" />
+
+    <com.example.zedittextwithx.EditTextWithDeleteButton
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/textfield_bg"
+        android:ems="10"
+        android:orientation="horizontal"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        custom:deleteButtonRes="@drawable/text_field_clear_btn"
+        custom:hintText="Deneme" />
+
+</LinearLayout>
